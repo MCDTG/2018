@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Minutes - MIT Student Council</title>
+  <title>Home - Student Council</title>
 
   <!-- Imports: JQuery, Bootstrap, Font-Awesome, Poppins (Google Fonts), Favicon -->
   <script src="scripts/jquery-3.1.1.min.js"></script>
@@ -17,7 +17,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body onload="onLoad()">
+<body onload="onLoad();">
   <div id="container">
 
     <!-- Look into better way of handling Reusable code. Client-Side XSS is a terrible idea. -->
@@ -27,22 +27,31 @@
     <!-- End Navigation for Re-Use -->
 
     <div id="mainBody" class="col-lg-10 col-md-10 col-sm-12 col-xs-12 pull-right container">
+
       <div id="col1" class="col-sm-12 col-md-12 col-lg-12">
-        <h1>Minutes of Meetings</h1>
-        <h2>Foreword</h2>
+        <h1>MIT Student Council</h1>
+        <h2>Chairperson Blog</h2>
         <p>
-          The MIT Student Council strives to maintain honesty and transparency with all Students and Staff at MIT.<br/>
-          Below, You'll find the finalised minutes for all Student Council Meetings.
-		  <br><br>
-		  Please note items may be redacted to ensure the privacy and saftey of all MIT Staff and Students
+          Ensure that students are well represented and supported across the wider Manukau Institute of Technology. We aim to support the delivery of:
+          <ul>
+            <li>Encourage world-class learning and teaching practices.</li>
+            <li>Promote outstanding student experiences and learning environments.</li>
+            <li>Develop adequate levels of student support.</li>
+            <li>Ensure there are no unfair barriers to education.</li>
+            <li>Promote equitable access and support for achievement.</li>
+            <li>Ensure students are valued members of an academic community that contributes to the creation and dissemination of knowledge.</li>
+          </ul>
         </p>
-        <!-- Backend Suggestion: PHP or Asp. Grab this list dynamically by filesystem and/or DB. -->
-        <div id="minutesContainer">
-          <!-- Since only Front-End Technologies are available - Generate the Minutes list based on a given JSON file.-->
-          <script>retrieveMinutes();</script>
-        </div>
-      </div>
-    </div>
+        <h2>20/07/2017</h2>
+		<p></p>
+		<h2>20/07/2017</h2>
+		<p></p>
+		<h2>20/07/2017</h2>
+		<p></p>
+		<h2>20/07/2017</h2>
+		<p></p>
+
+      
   </div>
 </body>
 </html>
